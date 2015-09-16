@@ -12,6 +12,6 @@ public class Name {
 		System.out.println("이름입력?");
 		Scanner scanner = new Scanner(System.in);
 		String hong = scanner.next();
-		System.out.println(hong);
+		System.out.println("반갑습니다. "+hong+" 님");
 	}
 }

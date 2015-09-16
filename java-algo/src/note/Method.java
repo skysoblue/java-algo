@@ -12,7 +12,9 @@ public class Method {
 	 * 자바는 메소드 상위에 클래스가 존재한다는 점이
 	 * 다르다
 	 */
-	void main() {}
+	public static void main(String[] args) {
+		
+	}
 	/**
 	 * 메소드를 구성하는 필요요소는 총 4가지 이다.
 	 * 리턴타입 + 식별자 + (파라미터) + 메소드블록

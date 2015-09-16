@@ -19,5 +19,6 @@ public class VariableDemo {
 		int a;
 		String name;
 		String name2 = "홍길동";
+		
 	}
 }
