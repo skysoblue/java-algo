@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @date      : 2015. 9. 17.
  * @story     : 성적표 프로그램
  */
-public class ifTest {
+public class SamHang {
 	/**
 	 * To. 개발자님
 	 * 프로그램을 하나 개발해야 합니다.
@@ -39,19 +39,18 @@ public class ifTest {
 		System.out.println("=======================================================");
 		int tot = kor+eng+math;
 		int avg = tot/3;
-		String result = null;
-		if (avg >= 90) {
-			result = "장학생";
-		} else if(70 <= avg && avg < 90){ // 70 <= avg < 90
-			result = "합격";
-		}else{
-			result = "불합격";
-		}
+		
+		String result = (70 <= avg )? "합격":"불합격";
 		System.out.println(name+"\t\t"+kor+"\t\t"+ eng+"\t\t"+math+"\t\t"+tot+"\t\t"+avg+"\t\t"+result);
 	}
 }
 
-
+/**
+ * 삼항연산자 예문
+ * boolean flag = (true)?true :false;
+ * String str = (true) ? "참" : "거짓";
+ * int a = (true) ? 1 : 0;
+ */
 
 
 
