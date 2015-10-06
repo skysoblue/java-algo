@@ -37,9 +37,9 @@ public class SwitchTest {
 		char ch = ssn.charAt(7);
 		String gender = null;
 		switch (ch) {
-		case '1':case '2':
+		case '1':case '3':
 			gender = "남";break;
-		case '3':case '4':
+		case '2':case '4':
 			gender = "여";break;	
 		case '5':case '6':
 			gender = "외국인";break;

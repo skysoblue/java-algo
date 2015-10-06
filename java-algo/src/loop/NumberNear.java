@@ -20,6 +20,8 @@ public class NumberNear {
 		int gap = 0, target = scanner.nextInt(); // 입력값과 차이값
 		for (int i = 0; i < arr.length; i++) {
 			
+
+		
 		}
 		
 		System.out.println("다음 배열이 있을 때 입력한 수 "+target+"와 가장 가까운 수를 구하시오.\n"
